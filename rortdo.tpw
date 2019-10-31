@@ -1,0 +1,23 @@
+#!==========================================================================
+#! File:        rortdo.tpw
+#! Purpose:     Generate To Do Procedure
+#!
+#! Copyright © 2009-2010 Roberto Artigas
+#! All Rights Reserved World Wide
+#!==========================================================================
+#! RubyOnRails ToDo Template
+#!--------------------------------------------------------------------------
+#!
+#! The ToDo template is required so that the IDE will function properly. The
+#! ToDo template is just a special #PROCEDURE. For more information about
+#! #PROCEDURE, check the comments in the Source Template or read the Clarion
+#! documentation.
+#!
+#! Note: If you are planning on generating code that is not Clarion, you
+#!       must set the target to one that has previously defined in the
+#!       target section of a #MODULE.
+#!
+#!
+#PROCEDURE(ToDo,'Procedure not yet defined','ror'),DEFAULT
+#!==========================================================================
+#!==========================================================================

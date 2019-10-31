@@ -1,0 +1,13 @@
+#!==========================================================================
+#! File:        ror.tpi
+#! Purpose:     RubyOnRails template chain includes
+#!
+#! Copyright © 2009-2010 Roberto Artigas
+#! All Rights Reserved World Wide
+#!==========================================================================
+#INCLUDE('rorprg.tpw')      #! RA.2009.04.23 - Program
+#INCLUDE('rormod.tpw')      #! RA.2009.04.23 - Module				
+#INCLUDE('rorsrc.tpw')      #! RA.2009.04.23 - Source
+#INCLUDE('rortdo.tpw')      #! RA.2009.04.23 - Todo
+#!==========================================================================
+#!==========================================================================

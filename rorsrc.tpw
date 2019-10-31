@@ -1,0 +1,57 @@
+#!==========================================================================
+#! File:        rorsrc.tpw
+#! Purpose:     Generate Procedure Code
+#!
+#! Copyright © 2009-2010 Roberto Artigas
+#! All Rights Reserved World Wide
+#!==========================================================================
+#! RubyOnRails Source Template
+#!--------------------------------------------------------------------------
+#!
+#! The #PROCEDURE statement begins a Procedure template. A Procedure
+#! template contains the Template and target language statements used to
+#! generate the source code for a procedure within your application. Within
+#! a Template set you may have multiple #PROCEDURE sections, but they must
+#! all have unique name parameters.
+#!
+#! Note: If you are planning on generating code that is not Clarion, you
+#!       must set the target to one that has previously defined in the
+#!       target section of a #MODULE.
+#!
+#!  #PROCEDURE( name, description [, target ] ) [, REPORT ] [, WINDOW ] [, HLP( helpid ) ]
+#!              [, PRIMARY( message [, flag ] ) ]  [, QUICK( wizard ) ]
+#!
+#!  #PROCEDURE    Begins a procedure template.
+#!
+#!  name            The label of the procedure template. This must be a
+#!                  valid Clarion label.
+#!  description     A string constant describing the procedure Template.
+#!  target          A string constant that specifies the source language
+#!                  the template generates. If omitted, it defaults to
+#!                  Clarion.
+#!  REPORT          Tells the Application Generator to make the Report
+#!                  Formatter available.
+#!  WINDOW          Tells the Application Generator to make the Window
+#!                  Formatter available.
+#!  HLP             Specifies on-line help is available.
+#!  helpid          A string constant containing the help identifier. This
+#!                  may be either a Help keyword or "context string."
+#!  PRIMARY         Specifies at least one file must be placed in the
+#!                  procedure's File Schematic.
+#!  message         A string constant containing a message that appears in
+#!                  the File Schematic next to the procedure's Primary
+#!                  file.
+#!  flag            If present, contains OPTIONAL (the file is not
+#!                  required), OPTKEY (the key is not required), or NOKEY
+#!                  (the file is not required to have a key).
+#!
+#!  QUICK           Specifies the procedure has a wizard #UTILITY that
+#!                  runs when the Use Procedure Wizard box is checked.
+#!  wizard          The identifier (including template class, if necessary)
+#!                  of the wizard #UTILITY template.
+#!
+#PROCEDURE(Source,'Source Procedure','ror'),HLP('~RubyOnRailsTPLProcSource') #! Source procedure
+#!--------------------------------------------------------------------------
+#EMBED(%ProcedureCodeSection,'Procedure Code')              #! Embedded Source Code
+#!==========================================================================
+#!==========================================================================

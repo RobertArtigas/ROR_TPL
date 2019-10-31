@@ -1,0 +1,43 @@
+#!==========================================================================
+#! File:        rorPrg.Tpw
+#! Purpose:     Generate Program Code
+#!
+#! Copyright © 2009-2010 Roberto Artigas
+#! All Rights Reserved World Wide
+#!==========================================================================
+#! RubyOnRails Program Source Template
+#!--------------------------------------------------------------------------
+#!
+#! The #PROGRAM statement defines the beginning of the main program module
+#! of the Template. Only one #PROGRAM section is allowed in a Template set.
+#! Any #EMBED statements in a #PROGRAM section will be visible by accessing
+#! the "Embed" button in the "Program" properties.
+#!
+#! Note: If you are planning on generating code that is not Clarion, you
+#!       must set the target to one that has previously defined in the
+#!       target section of a #MODULE.
+#!
+#!  #PROGRAM( name, description [, target, extension ] ) [, HLP( helpid ) ]
+#!
+#!  #PROGRAM        Defines the beginning of the main program module.
+#!
+#!  name            The name of the #PROGRAM which identifies it for the
+#!                  Template Registry and Template Language statements. This
+#!                  must be a valid Clarion label.
+#!  description     A string constant describing the #PROGRAM section for
+#!                  the Template Registry and Application Generator.
+#!  target          A string constant that specifies the source language the
+#!                  Template generates. If omitted, it defaults to Clarion.
+#!  extension       A string constant that specifies the source code file
+#!                  extension for the target. If omitted, it defaults to
+#!                  .CLW
+#!  HLP             Specifies on-line help is available.
+#!  helpid          A string constant containing the identifier to access
+#!                  the Help system. This may be either a Help keyword or
+#!                  "context string."
+#!
+#PROGRAM(RubyOnRails,'Program','ror','rb'),HLP('~RubyOnRailsTPLProgram')
+#!--------------------------------------------------------------------------
+#EMBED(%ProgramCodeSection,'Program Code')                  #! Embedded Source Code
+#!==========================================================================
+#!==========================================================================
