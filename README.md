@@ -9,3 +9,9 @@ The realization came quickly that creating a whole template chain from scratch i
 
 And while the framework for this particular language is not being developed, the framework structure is valid. And this framework could be used as a start to a template chain for Python, .NET, elixir, or any other computer language of your choice.
 
+
+[Code](https://github.com/RobertArtigas/ROR_TPL) 
+[Wiki](https://github.com/RobertArtigas/ROR_TPL/wiki) 
+[Main](https://github.com/RobertArtigas) 
+[Repositories](https://github.com/RobertArtigas?tab=repositories)
+
